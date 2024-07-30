@@ -8,7 +8,7 @@
 
 ## How .NET MAUI Works
 
-.NET MAUI unifies Android, iOS, macOS, and Windows APIs into a single API that allows a write-once run-anywhere developer experience while additionally providing deep access to every aspect of each native platform.
+- .NET MAUI unifies Android, iOS, macOS, and Windows APIs into a single API that allows a write-once run-anywhere developer experience while additionally providing deep access to every aspect of each native platform.
 
 ## Key Components
 
@@ -20,28 +20,23 @@
 - **Windows UI 3 (WinUI 3) library**
 
 ### Base Class Library (BCL)
-These frameworks all have access to the same .NET Base Class Library (BCL). This library abstracts the details of the underlying platform away from your code. The BCL depends on the .NET runtime to provide the execution environment for your code.
-
+- These frameworks all have access to the same .NET Base Class Library (BCL). This library abstracts the details of the underlying platform away from your code. The BCL depends on the .NET runtime to provide the execution environment for your code.
 - **Execution Environment**:
   - **Android, iOS, macOS**: Implemented by Mono, an implementation of the .NET runtime.
   - **Windows**: .NET CoreCLR provides the execution environment.
 
 ## UI and Code Sharing
-
-While the BCL enables apps running on different platforms to share common business logic, the various platforms have different ways of defining the user interface for an app. They provide varying models for specifying how the elements of a user interface communicate and interoperate.
-
-You can craft the UI for each platform separately using the appropriate platform-specific framework (.NET for Android, .NET for iOS, .NET for Mac Catalyst, or WinUI 3), but this approach requires you to maintain a code-base for each individual family of devices.
+- While the BCL enables apps running on different platforms to share common business logic, the various platforms have different ways of defining the user interface for an app. They provide varying models for specifying how the elements of a user interface communicate and interoperate.
+- You can craft the UI for each platform separately using the appropriate platform-specific framework (.NET for Android, .NET for iOS, .NET for Mac Catalyst, or WinUI 3), but this approach requires you to maintain a code-base for each individual family of devices.
 
 ## Unified Framework
-
-.NET MAUI provides a single framework for building the UIs for mobile and desktop apps. The following diagram shows a high-level view of the architecture of a .NET MAUI app:
+- .NET MAUI provides a single framework for building the UIs for mobile and desktop apps. The following diagram shows a high-level view of the architecture of a .NET MAUI app:
 
 ![.NET MAUI Architecture](https://github.com/user-attachments/assets/8d7e4a39-b0e0-4c2a-81f5-c690ff4b3e84)
 
 - In a .NET MAUI app, you write code that primarily interacts with the .NET MAUI controls and API layer (1).
 - This layer then directly consumes the native platform APIs (3).
 - In addition, app code may directly exercise platform APIs (2), if required.
-
 - .NET MAUI apps can be written on PC or Mac, and compile into native app packages:
   - Android apps built using .NET MAUI compile from C# into an intermediate language (IL) which is then just-in-time (JIT) compiled to a native assembly when the app launches.
   - iOS apps built using .NET MAUI are fully ahead-of-time (AOT) compiled from C# into native ARM assembly code.
