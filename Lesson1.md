@@ -29,12 +29,13 @@
 - .NET MAUI allows you to develop apps that can run on Android, iOS, macOS, and Windows from a single shared code-base.
 
 ## Overview
+![Figure 1. .NET MAUI Supported platforms](https://github.com/user-attachments/assets/24b1773e-1272-44c7-8280-493bde7279fa)
 
-![Figure 1. .NET MAUI Supported platforms](file-jMvlMwOnqbGJY1JsYKnW5kY3)
 
 .NET MAUI provides a single framework for building the UIs for mobile and desktop apps. The following diagram shows a high-level view of the architecture of a .NET MAUI app.
 
-![Figure 2. The .NET MAUI architecture](file-jMvlMwOnqbGJY1JsYKnW5kY3)
+![Figure 2. The .NET MAUI architecture](https://github.com/user-attachments/assets/298c1342-0b78-4985-ba19-a95021d34301)
+
 
 ## Benefits and Features
 
