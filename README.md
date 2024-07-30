@@ -1,3 +1,3 @@
 # Intermediate-Mobile-Programming
-- [Reference Book]()
+- [Reference]()
 - [Lesson 1](Lesson1.md)
