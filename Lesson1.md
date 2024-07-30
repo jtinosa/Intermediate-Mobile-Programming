@@ -23,25 +23,5 @@
    - **Preparation**: Finalize all necessary preparations for release, such as creating marketing materials, setting up distribution channels, and preparing release notes.
    - **Release**: Deploy the app to production. This may involve submitting it to app stores, rolling it out to web servers, or distributing it to enterprise environments.
    - **Post-Release Monitoring**: Monitor the app’s performance, user feedback, and any potential issues post-release. This phase may also include planning for future updates and improvements based on user feedback and emerging needs.
-  
-## .NET Multi-platform App UI (.NET MAUI)
-- .NET Multi-platform App UI (.NET MAUI) is a cross-platform framework for creating native mobile and desktop apps with C# and XAML.
-- .NET MAUI allows you to develop apps that can run on Android, iOS, macOS, and Windows from a single shared code-base.
-
-## Overview
-![Figure 1. .NET MAUI Supported platforms](https://github.com/user-attachments/assets/24b1773e-1272-44c7-8280-493bde7279fa)
 
 
-.NET MAUI provides a single framework for building the UIs for mobile and desktop apps. The following diagram shows a high-level view of the architecture of a .NET MAUI app.
-
-![Figure 2. The .NET MAUI architecture](https://github.com/user-attachments/assets/298c1342-0b78-4985-ba19-a95021d34301)
-
-
-## Benefits and Features
-
-- **Unified API**: .NET MAUI unifies Android, iOS, macOS, and Windows APIs into a single API that allows a write-once run-anywhere developer experience while providing deep access to every aspect of each native platform.
-- **Platform-specific Frameworks**: .NET provides a series of platform-specific frameworks for creating apps: .NET Android, .NET iOS, .NET macOS, and Windows UI 3 (WinUI 3) library. These frameworks all have access to the same .NET Base Class Library (BCL).
-- **Base Class Library (BCL)**: BCL abstracts the details of the underlying platform away from your code. The BCL depends on the .NET runtime to provide the execution environment for your code.
-  - **Execution Environment**:
-    - For Android, iOS, and macOS, the environment is implemented by Mono, an implementation of the .NET runtime.
-    - On Windows, .NET CoreCLR provides the execution environment.
