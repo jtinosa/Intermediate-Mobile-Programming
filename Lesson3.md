@@ -80,7 +80,7 @@ A content page typically displays a **view**. A view enables users to retrieve a
 
 In the default `MainPage.xaml` file, a **page/view/layout/control hierarchy** can be seen in action. In this XAML code, the `VerticalStackLayout` element is just another control that enables fine-tuning the layout of other controls.
 
-```xml
+```
 <ContentPage ...>
     <ScrollView ...>
         <VerticalStackLayout>
@@ -91,3 +91,4 @@ In the default `MainPage.xaml` file, a **page/view/layout/control hierarchy** ca
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
+```
