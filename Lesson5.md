@@ -1,4 +1,3 @@
-```markdown
 # XAML Pages & Layout in .NET MAUI
 
 ## **Introduction to Layout Panels**
